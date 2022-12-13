@@ -1,16 +1,16 @@
 import "./App.css";
 import Contador from "./components/Contador";
-import { memo } from "react";
+import Count from "./components/Count";
 
 function App() {
-  console.log("home");
   return (
     <section className="App">
       <h1>useReduce</h1>
       <hr />
       <Contador />
+      <Count />
     </section>
   );
 }
 
-export default memo(App);
+export default App;
